@@ -1,0 +1,221 @@
+@charset "utf-8";
+html{
+   font-size:10rem;
+   background: #fff;
+}
+.top{
+	padding: 3%;
+	background:#ed3232;
+}
+.top p{
+	text-indent:2.5rem;
+	color:#fff;
+	font-size:1.3rem;
+}
+.top p:first-child{
+	height:3rem;
+	line-height:3rem;
+	font-size:1.4rem;
+	font-weight: bold;
+	position:relative;
+}
+.top p:first-child i{
+	width:1.8rem;
+	height:1.8rem;
+	display:block;
+	position: absolute;
+	top:0.6rem;
+	left:0.4rem;
+	background: url("../image/order.png") no-repeat center;
+	background-size: 100%;
+}
+.ordercon{
+	padding: 3%;
+	border-bottom:1px solid #ccc;
+}
+.ordercon p{
+	text-indent:2.5rem;
+	color:#666;
+	font-size:1.3rem;
+}
+.phone{
+	float:right;
+	margin-right: 2rem;
+}
+.ordercon p:first-child{
+	height:3rem;
+	color:#333;
+	line-height:3rem;
+	font-size:1.4rem;
+	font-weight: bold;
+	position:relative;
+}
+.ordercon p:first-child i{
+	width:1.8rem;
+	height:1.8rem;
+	display:block;
+	position: absolute;
+	top:0.6rem;
+	left:0.4rem;
+	background: url("../image/address.png") no-repeat center;
+	background-size: 100%;
+}
+.express{
+	padding:3%;
+}
+.express p{
+	height:3rem;
+	color:#333;
+	text-indent:2.5rem;
+	line-height:3rem;
+	font-size:1.4rem;
+	font-weight: bold;
+	position:relative;
+}
+.express p:first-child i{
+	width:1.8rem;
+	height:1.8rem;
+	display:block;
+	position: absolute;
+	top:0.6rem;
+	left:0.4rem;
+	background: url("../image/car.png") no-repeat center;
+	background-size: 100%;
+}
+.order_mes{
+  padding: 1% 0;
+  width:95%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+.mes_left{
+  width: 4%;
+  height: auto;
+  float: left;
+  margin-right:2%;
+  position: relative; 
+}
+.wes_right{
+	width: 94%;
+
+	 float: right;
+}
+.wes_cle{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background: #f0790f;
+    position: relative;
+    top: 0.2rem;
+    left: 0px;
+}
+.mes_line{
+   width: 1rem;
+	border-right: 1px solid #f0790f;
+	position: relative;
+	top: 0;
+	left: -0.5rem;
+	z-index: -1;	
+}
+
+.mes_right{
+  width: 85%;
+  float: left;
+}
+.mes_con{
+  color:#f0790f;
+  font-size: 1.3rem;
+}
+.wes_con{
+  color:#f0790f;
+  font-size: 1.3rem;
+}
+.mes_time{
+  margin-top: 0.2rem;
+  color:#888;
+  font-size: 1.3rem;
+}
+
+.orderlist{
+	width:100%;
+	padding:0.5rem 0;
+	background:#f7f7f7;
+}
+.orderlist ul li{
+	width:95%;
+	padding:2.5% 0;
+	margin:2.5% auto 0;
+    background:#fff;
+	border:1px solid #cccccc;
+	border-bottom:none;	
+}
+.orderlist ul li .order-top{
+	border-bottom:1px solid #cccccc;
+	height: 2.5rem;
+	padding:0 2.5%;
+	line-height:2.5rem;
+	font-size:1.3rem;
+
+}
+.order-top .order-state{
+	float:right;
+	color:#f27225;
+}
+.order-book{
+	overflow:hidden;
+	width:95%;
+	margin:0 auto;
+	border-bottom:1px solid #ccc;
+    display: table;   
+}
+.o-b-l{
+	width:30%;
+	display: table-cell; 
+    vertical-align: middle;
+}
+.o-b-r{
+	padding:1.5rem 1rem;
+	width:70%;
+	display: table-cell;
+    vertical-align: middle;
+}
+.o-b-l-pic{
+	width:6rem;
+	height:6rem;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	border-radius:3px;
+	margin:0 10%;
+	border:1px solid #ccc;
+}
+.o-b-l-pic img{
+	width:60%;
+	margin:0 auto;
+}
+.o-b-r p{
+	width:100%;
+	text-indent:1rem;
+	height:2.5rem;
+	color:#777;
+	font-size:1.2rem;
+	text-overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;  
+}
+
+.quallshu{
+	width:95%;
+	height:3.4rem;
+	line-height:3.4rem;
+	margin:0 auto;
+	text-align: center;
+	background:#ed3232;
+	border:1px solid #cccccc;
+	border-top:none;	
+}
+.quallshu a{
+	font-size:1.8rem;
+    color:#fff;	
+}

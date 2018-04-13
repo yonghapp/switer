@@ -1,0 +1,212 @@
+@charset "utf-8";
+@charset "utf-8";
+html{
+   font-size:10rem;
+	width:100%;
+	height:100%;
+
+} body{
+	width:100%;
+	height:100%;
+    background:#fff;
+}
+.usermes {
+	height:16rem;
+    width: 100%;
+    overflow: hidden;
+    position:relative;
+    margin-bottom:0.2rem;
+}
+.usermes .bg{
+	width:100%;
+	height:100%;
+	position:absolute;
+	z-index:0;
+
+}
+.usermes .bg .bg-rgba{
+	width:100%;
+	height:100%;
+	display:block;
+	position:absolute;
+	z-index:1;
+	background:rgba(0,0,0,0.4);
+}
+.usermes .bg img{
+    width:100%;
+	transform:scale(1.5,1.5);
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin:auto;
+	 filter:blur(5px);
+	-webkit-filter:blur(5px);
+	-moz-filter:blur(5px);
+	-ms-filter:blur(5px);
+	-o-filter:blur(5px);
+	z-index:0;
+	pacity: 0.5;
+}
+.usms-l {
+    width: 5.5rem;
+    height: 5.5rem;
+    position:relative;
+    z-index: 9;
+    margin:3.5rem auto 0;
+    background: #fff;
+    overflow:hidden;
+    border:0.3rem solid #fff;
+    border-radius: 50%;
+}
+.usms-l img{
+	width:100%;
+	height:100%;
+}
+.usms-r{
+	width:100%;
+     height:2rem;
+	line-height: 2rem;
+	font-size:1.3rem;
+	color:#fff;
+	position:relative;
+	z-index:9;
+	text-align:center;
+}
+
+.btnall {
+    width: 85%;
+    margin:0 auto;
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.make-btn {
+    width: 40%;
+    padding:5%;
+    border-radius: 0.3rem;
+    position: relative;
+}
+.btnall .make-btn span{
+	background:#ccc;
+	display:block;
+	position:absolute;
+}
+.btnall .make-btn:nth-child(1) .line{
+	width:60%;
+	height:1px;
+	bottom:0;
+	left:20%;
+}
+.btnall .make-btn:nth-child(2) .line{
+	width:60%;
+	height:1px;
+	bottom:0;
+	left:20%;
+}
+.btnall .make-btn:nth-child(2) .line1{
+	width:1px;
+	height:60%;
+	top:20%;
+	left:0;
+}
+.btnall .make-btn:nth-child(3) .line{
+	width:1px;
+	height:60%;
+	top:20%;
+	right:0;
+}
+
+.qu-txt,
+.huan-txt,
+.guij-txt,
+.guih-txt,
+.huan-txt {
+    line-height: 2rem;
+    font-size: 1.4rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    color: #333;
+}
+// .qu-txt {
+//     color: #ed3232;
+// }
+
+// .huan-txt {
+//     color: #29bf06;
+// }
+
+// .guij-txt {
+//     color: #db8a0b;
+// }
+
+// .guih-txt {
+//     color: #1296db;
+// }
+.make-btn .make-btn-con{
+		width:90%;
+		height:90%;
+		margin:5%;
+}
+.make-btn .make-btn-con .btn-pic{
+	width:45%;
+	padding: 5%;
+	margin:0 auto;
+	border-radius: 50%;
+	border-width:0.2rem;
+	border-style: solid;
+
+}
+
+.make-btn img{
+	width:80%;
+	margin:10%;
+	display:block;
+
+}
+.btnall .make-btn .make-btn-con .qu-btn{
+	border-color:#ed3232;
+}
+.btnall .make-btn .make-btn-con .huan-btn{
+	border-color:#29bf06;
+}
+.btnall .make-btn .make-btn-con .guij-btn {
+    border-color: #db8a0b;
+}
+.btnall .make-btn .make-btn-con .guih-btn {
+    border-color:#1296db;
+}
+.gui-num {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    color: #fff;
+    line-height: 2.5rem;
+    text-align: center;
+    font-size:0.8rem;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #f00;
+}
+.here{
+    position:fixed;
+    bottom:10px;
+    left:0;
+    width:100%;
+    text-align:center;
+    color:#b4b2b2;
+    font-size:1.1rem;
+}
+.here{
+    position:fixed;
+    bottom:10px;
+    left:0;
+    width:100%;
+    text-align:center;
+    color:#b4b2b2;
+    font-size:1.1rem;
+}

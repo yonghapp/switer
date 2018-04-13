@@ -1,0 +1,67 @@
+@charset "utf-8";
+html{
+   font-size:10rem;
+   background: #f7f7f7;
+}
+.book_item{
+}
+.book {
+    border: 1px solid #e4e4e4;
+    margin: 10px;
+    padding:1% 2%;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0.5px 2px 1px 1px #e4e4e4;
+    border-radius: 2px;
+     display: flex;
+  align-items: center;
+}
+
+.book_pic {
+
+    width: 25%;
+    text-align: center;
+    float: left;
+    background: #eeeef3;
+}
+
+.book_pic img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.book_con {
+    float: right;
+    width: 72.5%;
+    margin-left: 2.5%;
+}
+
+.book_name {
+    font-size: 1.3rem;
+    height: 2.5rem;
+    line-height:2.5rem;
+    color: #333;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow: hidden;
+
+}
+
+.bok_tt {
+    margin: 0.5% 0;
+    font-size: 1rem;
+    color: #888;
+}
+
+    .bok_tt span {
+        color: #333;
+    }
+
+// .book_endtime {
+//     color: #d42912;
+// }
+.book_endtime span {
+//     color: #d42912;
+// }
+
+// 

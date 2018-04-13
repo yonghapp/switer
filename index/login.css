@@ -1,0 +1,93 @@
+@charset "utf-8";
+html{
+   font-size:10rem;
+   background: #fff;
+}
+.top{
+	width: 100%;
+	margin-bottom: 3rem;
+}
+.top img{
+	width:8.5rem;
+	height:8.5rem;
+	margin: 0 auto;
+	margin-top: 6rem;
+
+	display: block;	
+
+}
+.inserput{
+	width:85%;
+	height:3.0rem;
+	margin:0.5rem auto;
+}
+.inserput span{
+	width:20%;
+	height:3.0rem;
+	line-height: 3.0rem;
+	text-align: left;
+	display:block;
+	float: left;
+	font-size:1.2rem;
+	color: #676767;
+}
+.inserput input{
+	width:80%;
+	height:3.0rem;
+	line-height:3.0rem;
+	font-size:1.2rem;
+	color: #676767;
+	text-indent: 1.2rem;
+	float:right;
+	border:none;
+	border-bottom: 1px solid #676767;
+
+}
+form .btn {
+	margin-top:3.8rem;
+	
+}
+form .btn input{
+	width:100%;
+	height:3.0rem;
+	border:none;
+	text-indent: 0;
+	background:#ed3232;
+	color:#fff;
+	font-size:1.4rem;
+	margin:0;
+	border-radius: 4px;
+}
+form .forget{
+	height:2rem;
+}
+form .forget{
+   display: flex;
+   justify-content: center;
+   color:#ee3e00;
+
+}
+form .forget a{
+	color:#ee3e00;
+	font-size:1.1rem;
+}
+.other{
+	width:100%;
+}
+.other div{
+	width:50%;
+	float:left;
+	display: flex;
+   justify-content: center;
+}
+.other div a img{
+	width:3.0rem;
+	height:3.0rem;
+	display:block;
+	margin:2.0rem auto 0;
+}
+.other div a span{
+	font-size:1.2rem;
+	color:#888;
+
+}

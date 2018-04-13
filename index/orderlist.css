@@ -1,0 +1,141 @@
+@charset "utf-8";
+html{
+   font-size:10rem;
+   background: #f7f7f7;
+}
+.numbox{
+	width:94%;
+	height:4rem;
+	padding:3%;
+	background:#ed3232;
+	display: flex;
+	position: fixed;
+	top:0;
+}
+.box-pic{
+	width:3.5rem;
+	height:3.5rem;
+	margin:0.25rem 1rem;
+}
+.box-pic img{
+	width:100%;
+	height:100%;
+}
+.box-num{
+	width:60%;
+	margin:0 auto;
+	line-height:4rem;
+	font-size:2rem;
+	color:#fff;
+	letter-spacing: 0.25rem;
+}
+.orderlist{
+	width:100%;
+	padding-top:5.8rem;
+}
+.orderlist ul li{
+	width:90%;
+	padding:2.5%;
+	margin:2.5% auto 0;
+    background:#fff;
+	border:1px solid #cccccc;
+}
+.orderlist ul li .order-top{
+	border-bottom:1px solid #cccccc;
+	height: 2.5rem;
+	line-height:2.5rem;
+	font-size:1.3rem;
+
+}
+.order-top .order-state{
+	float:right;
+	color:#f27225;
+}
+.order-book{
+	overflow:hidden;
+	border-bottom:1px solid #ccc;
+}
+.o-b-l{
+	width:30%;
+	float:left;
+}
+.o-b-r{
+	margin-top:1rem;
+	width:70%;
+	float:right;
+}
+.o-b-l-pic{
+	width:6rem;
+	height:6rem;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	border-radius:3px;
+	margin:0.5rem 10%;
+	border:1px solid #ccc;
+}
+.o-b-l-pic img{
+	width:60%;
+	margin:0 auto;
+}
+.o-b-r p{
+	width:100%;
+	text-indent:1rem;
+	height:2.5rem;
+	color:#777;
+	font-size:1.2rem;
+	text-overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;  
+}
+.order-m{
+	width:100%;
+	padding:0.5rem 0;
+	overflow:hidden;
+	color:#777;
+	font-size:1.3rem;
+	border-bottom:1px solid #ccc;
+}
+.order-m span{
+	font-size:1.3rem;
+	color:#333;
+}
+.order-m .address{
+	color:#fa9b05;
+}
+
+.order-xq-btn{
+	width:100%;
+	line-height:2.5rem;
+	padding:0.8rem 0 0;
+	overflow:hidden;
+}
+.qjshu{
+    float:left;
+}
+.xqshu{
+	float:right;
+}
+.order-xq-btn button{
+	background:#fff;
+	height:2.5rem;	
+	padding:0 1.5rem;
+	border-radius:3px;
+	font-size:1.4rem;
+}
+.order-xq-btn button.qushu{
+
+    border:1px solid #ed3232;     
+    color:#ed3232; 
+    } 
+ .order-xq-btn button.xianbtn{    
+ // background:#ed3232;    
+  border:1px solid #fc9816;
+  color:#fc9816; 
+
+} 
+.order-xq-btn button.act, .order-xq-btn a.act{
+color:#ccc;     
+border-color:#ccc; 
+}
+
